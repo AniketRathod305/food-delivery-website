@@ -1,0 +1,202 @@
+/* reset css */
+*
+{
+    padding:0px;
+    margin:0px;
+}
+/* logoimg styling */
+#logoimg
+{
+    width:110px;
+    height:100px;
+}
+/* navbar and logo styling */
+header{
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(lightblue,blue);
+    /* position: fixed; */
+    /* width: 100%; */
+}
+ul{
+   display: flex;
+   margin-left:400px;;
+  }
+ul li
+{
+    list-style:none;
+}
+ul li a
+{
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+   color: black;
+}
+ul li a:hover
+{
+    background-color: blanchedalmond;
+    border-radius: 3px;
+    color: red;
+}
+/* title styling */
+#title
+{
+    margin-left:80px;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: relative;
+}
+@keyframes move
+{
+    from
+    {
+        left:100px;
+        opacity: 1;
+    }
+    to
+    {
+       left: 300px;
+       opacity:0.5;
+    }
+}
+/* home section styling */
+#home
+{
+    width: 100%;
+    background-image: url(imge.jpg);
+    height:400px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#x
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;;
+}
+button
+{
+    background-color: transparent;
+    margin-top: 20px;
+    font-size: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+}
+#services
+{
+    background-color: lightblue;
+   
+}
+/* services styling */
+#services h1{
+    text-align: center;
+    padding-top: 8px;
+   
+}
+#box
+{
+    display:flex;
+}
+.ade
+{
+    display: flex;
+    height:300px;
+    width:370px;
+    border:2px solid green;
+    border-radius: 15px;
+   margin:25px;
+}
+#abc
+{
+    width:250px;
+    height:150px;
+    margin-left:65px;
+    margin-top:20px;
+}
+h4{
+    text-align: center;
+    margin-top:190px;
+    margin-right: 80px;
+}
+#box1
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#box2
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#box3
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#box p{
+    margin-top: 5px;
+    font-size: 20px;
+    
+}
+#sm
+{
+    font-weight: bold;
+}
+/* contact  styling */
+#contact
+{
+    background-color: mediumblue;
+    height:400px;
+    background-image: url(contact.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+   
+}
+#survey-form
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+}
+#tt
+{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+#survey-form input,
+#survey-form textarea,
+#survey-form button
+{
+    width:80%
+}
+/* footer styling */
+footer
+{
+    background-color:black;
+    height:20px;
+    color: white;
+    text-align: center;
+   
+}
+/* about styling */
+#about
+{
+    background-color:mediumblue;
+    height: 400px;
+}

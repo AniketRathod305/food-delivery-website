@@ -1,0 +1,78 @@
+/* nav bar  */
+header{
+    flex-direction: column;
+}
+ul{
+    margin: auto;
+}
+/* home section */
+#x
+{
+    font-size: 30px;
+}
+#x1
+{
+    text-align: center;
+    font-size:12px;
+}
+/* services section */
+#services
+{
+  
+}
+#box
+{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ade
+{
+    display: flex;
+    height:150px;
+   width:300px;
+    border:2px solid green;
+    border-radius: 5px;
+   margin:5px;
+}
+#abc
+{
+    width:100px;
+    height:50px;
+    margin-left:75px;
+    margin-top:20px;
+}
+h4{
+    font-size: 10px;
+    text-align: center;
+    margin-top:19px;
+    margin-right: 8px;
+}
+#box1
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#box2
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#box3
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#box p{
+    margin-top: 5px;
+    font-size: 10px;
+    
+}
+footer
+{
+    font-size:5px;
+}
+
